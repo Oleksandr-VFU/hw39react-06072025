@@ -1,11 +1,11 @@
 ## Опис проекту
 
-Це навчальний React проект "Лічильник", створений за допомогою Vite. Мета проекту — розробити два компоненти:
+Це навчальний React проект "Лічильник", створений за допомогою Vite. Мета проекту — розробити два компоненти та продемонструвати їхню роботу в додатку:
 
 - **Stateful компонент**: `CounterManager` — використовує хук `useState` для додавання та управління станом лічильника.
 - **Stateless компонент**: `CounterDisplay` — приймає пропси та відображає їх.
 
-Демо додатку розгорнуто на платформі **Vercel**: [https://your-vercel-demo-link.vercel.app](https://your-vercel-demo-link.vercel.app)
+Демо додатку розгорнуто на платформі **Vercel**: [https://hw39react-06072025.vercel.app/](https://hw39react-06072025.vercel.app/)
 
 ---
 
@@ -32,7 +32,7 @@ hw2-react-app/
 
 1. **Клонувати репозиторій:**
     ```bash
-    git clone <url-репозиторію>
+    git clone https://github.com/Oleksandr-VFU/hw39react-06072025.git
     cd hw2-react-app
     ```
 
