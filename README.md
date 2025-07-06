@@ -1,12 +1,55 @@
-# React + Vite
+## Опис проекту
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Це навчальний React проект "Лічильник", створений за допомогою Vite. Мета проекту — розробити два компоненти:
 
-Currently, two official plugins are available:
+- **Stateful компонент**: `CounterManager` — використовує хук `useState` для додавання та управління станом лічильника.
+- **Stateless компонент**: `CounterDisplay` — приймає пропси та відображає їх.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Демо додатку розгорнуто на платформі **Vercel**: [https://your-vercel-demo-link.vercel.app](https://your-vercel-demo-link.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Структура проекту
+
+```
+hw2-react-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── CounterManager.jsx
+│   │   └── CounterDisplay.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## Локальний запуск
+
+1. **Клонувати репозиторій:**
+    ```bash
+    git clone <url-репозиторію>
+    cd hw2-react-app
+    ```
+
+2. **Встановити залежності:**
+    ```bash
+    npm install
+    ```
+
+3. **Запустити проект:**
+    ```bash
+    npm run dev
+    ```
+
+4. Відкрити [http://localhost:5173](http://localhost:5173) у браузері.
+
+---
+
+## Ліцензія
+
+Освітній проект. Всі права захищено.

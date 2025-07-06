@@ -1,5 +1,5 @@
 const CounterDisplay = ({ value}) => {
-    return <div>Поточне значення лічильника: {value}</div>;
+    return <div className="display-panel">Поточне значення лічильника: {value}</div>;
 }
 
 export default CounterDisplay;
